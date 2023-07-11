@@ -1,4 +1,5 @@
 
+
 *{
     margin: 0px;
     padding: 0px;
@@ -11,18 +12,12 @@ h2{
     font-size: 30px;
 }
 .head-container {
-    /* margin: 20px 10px; */
     background-color: rgb(245, 245, 220);
     height: 70px;
     width:auto;
     padding: 20px 0px;
 }
 
-nav{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
 .title{
 
     color: rgb(10, 10, 10);
@@ -60,15 +55,24 @@ nav{
 .primary-btn:hover, #primary-btn:hover{
     background-color: rgb(101, 23, 23);
 }
+/* Navigation */
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
 nav>ul{
     display: flex;
     gap: 25px;
-    align-items: centerSS;
+    align-items: center;
+    
 
 }
 
 nav li{
     list-style: none;
+    
    
 }
 
@@ -78,6 +82,7 @@ nav a{
     font-size: 25px;
     color: rgb(0, 139, 139);
 }
+
 /* Navigation hover */
 nav a:hover{
     color: rgb(0, 71, 71);
@@ -108,16 +113,16 @@ width: 400px;
     margin: 100px 0;
 }
 .service-featured h2{
-    margin-bottom: 15px
+    margin-bottom: 15px;
 
 }
 .service-container{
     display: flex;
     text-align: center;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin-top: 60px;
-    gap: 40px;
+    gap: 10px;
 }
 
 
