@@ -115,25 +115,27 @@ width: 400px;
 
 }
 .service-flower_1{
-    background-color:peachpuff;
+    background-color:rgb(247, 224, 244);
 
 }
 .service-flower_2{
-    background-color:aquamarine;
+    background-color:rgb(205, 240, 228);
 
 }
 .service-flower_3{
-    background-color:gainsboro;
+    background-color:rgb(226, 224, 226);
 
 }
 
+
 .box-sub-services {
     display: flex;
-    gap: 20px;
+    gap: 25px;
     align-items: center;
     justify-content: space-evenly;
-    background-color: rgba(244, 244, 244, 1);
+    background-color: rgb(237, 230, 230);
     padding: 50px 0px;
+   
 }
 
 .box-sub-services .sub-services-info {
@@ -141,5 +143,8 @@ width: 400px;
 }
 .sub-services-container {
     margin-bottom: 100px;
-}
 
+}
+.sub-box{
+    margin: 0px 180px;
+}
