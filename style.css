@@ -33,8 +33,8 @@ nav{
 #header-title2{
     color: rgb(221, 160, 221);
 }
-.primary-btn{
-    background-color: rgb(229, 84, 115, 1);
+#primary-btn{
+    background-color: rgb(251, 9, 61);
     color: rgb(255, 255, 255);
     border-radius: 5px;
     border: none;
@@ -42,7 +42,17 @@ nav{
     padding: 5px 15px;
     cursor: pointer;
 }
-.primary-btn:hover{
+.primary-btn{
+    background-color: rgb(229, 84, 115, 1);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.primary-btn:hover, #primary-btn:hover{
     background-color: rgb(101, 23, 23);
 }
 nav>ul{
@@ -104,9 +114,6 @@ width: 400px;
     width: 100%;
     margin-bottom: 15px;
 }
-.service-text h2{
-    margin-bottom: 12px;
-}
 .service-flower_1, .service-flower_2, .service-flower_3 {
     width: 300px;
     height: 350px;
@@ -145,7 +152,7 @@ width: 400px;
     margin-bottom: 100px;
 
 }
-.sub-box{
+.margin-div{
     margin: 0px 180px;
 }
 #text-color{
@@ -197,8 +204,33 @@ width: 400px;
     gap: 20px;
 }
 
-
 .flower-box img {
     width: 100%;
     height: 100%;
+}
+
+.deal {
+    background-image: url("/Flower Asset/Rectangle 9.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    margin-bottom: 100px;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form {
+    margin-top: 20px;
+}
+
+.form input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    width: 40%;
+    margin-right: 10px;
 }
