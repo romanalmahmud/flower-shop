@@ -27,10 +27,10 @@ nav{
     font-weight: 800;
 
 }
-#header-title1{
+#header-title_1{
     color: rgb(3, 87, 3);
 }
-#header-title2{
+#header-title_2{
     color: rgb(221, 160, 221);
 }
 #primary-btn{
@@ -233,4 +233,15 @@ width: 400px;
     font-size: 15px;
     width: 40%;
     margin-right: 10px;
+}
+
+footer {
+    background-color: rgb(8, 8, 8);
+    padding: 100px 0;
+    color: rgb(242, 234, 234);
+    text-align: center;
+}
+
+.web-footer{
+    margin: 0 30%;
 }
