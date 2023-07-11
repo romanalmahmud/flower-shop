@@ -9,7 +9,7 @@ body{
 
 .head-container {
     /* margin: 20px 10px; */
-    background-color: beige;
+    background-color: rgb(245, 245, 220);
     height: 70px;
     width:auto;
     padding: 20px 0px;
@@ -22,20 +22,20 @@ nav{
 }
 .title{
 
-    color: black;
+    color: rgb(10, 10, 10);
     font-size: 50px;
     font-weight: 800;
 
 }
 #header-title1{
-    color: green;
+    color: rgb(3, 87, 3);
 }
 #header-title2{
-    color: plum;
+    color: rgb(221, 160, 221);
 }
 .primary-btn{
-    background-color: red;
-    color: white;
+    background-color: rgb(229, 84, 115, 1);
+    color: rgb(255, 255, 255);
     border-radius: 5px;
     border: none;
     font-size: 22px;
@@ -43,7 +43,7 @@ nav{
     cursor: pointer;
 }
 .primary-btn:hover{
-    background-color: darkred;
+    background-color: rgb(101, 23, 23);
 }
 nav>ul{
     display: flex;
@@ -67,7 +67,7 @@ nav a:hover{
     color: rgb(0, 71, 71);
 }
 .head-container:hover{
- color: red;   
+ color: rgb(250, 9, 9);   
 }
 
 .img-banner{
@@ -76,7 +76,7 @@ width: 400px;
 .banner-container{
     display: flex;
     justify-content: space-around;
-    background-color: antiquewhite;
+    background-color: rgb(250, 235, 215);
     align-items: center;
 }
 .supporting-info{
@@ -147,4 +147,32 @@ width: 400px;
 }
 .sub-box{
     margin: 0px 180px;
+}
+#text-color{
+    color:  rgb(229, 84, 115, 1);;
+}
+.hotdeals-container {
+    background-color: rgb(241, 234, 234);
+    margin-bottom: 100px;
+}
+
+.sale-offers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 80px;
+    gap: 8%;
+}
+
+.hotdeals-info {
+    margin: 0 180px;
+}
+
+.sale-info > h1, .sale-info > p {
+    margin-bottom: 30px;
+}
+
+.sale-photo img {
+    height: 250px;
 }
