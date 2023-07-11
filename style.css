@@ -1,3 +1,4 @@
+
 *{
     margin: 0px;
     padding: 0px;
@@ -23,8 +24,8 @@ nav{
 .title{
 
     color: rgb(10, 10, 10);
-    font-size: 50px;
-    font-weight: 800;
+    font-size: 40px;
+    font-weight: 700;
 
 }
 #header-title_1{
@@ -33,6 +34,7 @@ nav{
 #header-title_2{
     color: rgb(221, 160, 221);
 }
+/* button */
 #primary-btn{
     background-color: rgb(251, 9, 61);
     color: rgb(255, 255, 255);
@@ -73,13 +75,15 @@ nav a{
     font-size: 25px;
     color: rgb(0, 139, 139);
 }
+/* Navigation hover */
 nav a:hover{
     color: rgb(0, 71, 71);
 }
 .head-container:hover{
  color: rgb(250, 9, 9);   
 }
-
+/* Main section code */
+/* Featured  */
 .img-banner{
 width: 400px;
 }
@@ -158,7 +162,9 @@ width: 400px;
 #text-color{
     color:  rgb(229, 84, 115, 1);;
 }
-.hotdeals-container {
+
+/* Hot sales Offers */
+.hot-deals-container {
     background-color: rgb(241, 234, 234);
     margin-bottom: 100px;
 }
@@ -172,7 +178,7 @@ width: 400px;
     gap: 8%;
 }
 
-.hotdeals-info {
+.sale-info {
     margin: 0 180px;
 }
 
@@ -183,16 +189,16 @@ width: 400px;
 .sale-photo img {
     height: 250px;
 }
-
-.insta {
+/* Instagram */
+.instagram {
     margin-bottom: 100px;
 }
-.insta-text {
+.instagram-text {
     text-align: center;
     margin: 0 30%;
 }
 
-.insta-text h2 {
+.instagram-text h2 {
     margin-bottom: 10px;
 }
 
@@ -208,9 +214,9 @@ width: 400px;
     width: 100%;
     height: 100%;
 }
-
-.deal {
-    background-image: url("/Flower Asset/Rectangle 9.png");
+/* Latest Deals */
+.deals {
+    background-image: url('/Flower Asset/Rectangle 9.png');
     background-repeat: no-repeat;
     background-size: cover;
     height: 300px;
@@ -221,6 +227,7 @@ width: 400px;
     flex-direction: column;
     justify-content: center;
 }
+/* Text field */
 
 .form {
     margin-top: 20px;
@@ -234,7 +241,7 @@ width: 400px;
     width: 40%;
     margin-right: 10px;
 }
-
+/* Footer */
 footer {
     background-color: rgb(8, 8, 8);
     padding: 100px 0;
