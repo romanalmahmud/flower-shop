@@ -7,7 +7,9 @@ body{
     font-family: 'Roboto', sans-serif;
 
 }
-
+h2{
+    font-size: 30px;
+}
 .head-container {
     /* margin: 20px 10px; */
     background-color: rgb(245, 245, 220);
@@ -49,9 +51,10 @@ nav{
     color: rgb(255, 255, 255);
     border-radius: 5px;
     border: none;
-    font-size: 18px;
+    font-size: 15px;
     padding: 10px 15px;
     cursor: pointer;
+
 }
 
 .primary-btn:hover, #primary-btn:hover{
@@ -94,7 +97,7 @@ width: 400px;
     background-color: rgb(250, 235, 215);
 }
 .supporting-info{
-    font-size: 18px;
+    font-size: 15px;
     margin-top: 15px;
     margin-bottom: 15px;
 
@@ -104,14 +107,19 @@ width: 400px;
     text-align: center;
     margin: 100px 0;
 }
+.service-featured h2{
+    margin-bottom: 15px
+
+}
 .service-container{
     display: flex;
     text-align: center;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     margin-top: 60px;
     gap: 40px;
 }
+
 
 .service-container img {
     margin-bottom: 15px;
@@ -159,6 +167,9 @@ width: 400px;
 .margin-div{
     margin: 0px 180px;
 }
+.text-small{
+    font-size: 15px;
+}
 #text-color{
     color:  rgb(229, 84, 115, 1);;
 }
@@ -182,8 +193,12 @@ width: 400px;
     margin: 0 180px;
 }
 
-.sale-info > h1, .sale-info > p {
-    margin-bottom: 30px;
+.sale-info > h1 {
+    margin-bottom: 20px;
+
+} .sale-info > p {
+    margin-bottom: 20px;
+    font-size: 15px;
 }
 
 .sale-photo img {
