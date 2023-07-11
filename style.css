@@ -91,9 +91,7 @@ nav a:hover{
 }
 /* Main section code */
 /* Featured  */
-.img-banner{
-width: 400px;
-}
+
 .banner-container{
     display: flex;
     justify-content: space-around;
@@ -105,7 +103,16 @@ width: 400px;
     margin-top: 15px;
     margin-bottom: 15px;
 
+}
 
+.banner-photo {
+    padding-top: 40px;
+    width: 400px;
+    height: 500px;
+}
+.banner-photo img{
+    width: 100%;
+    height: 100%;
 }
 .service-featured{
     text-align: center;
@@ -177,6 +184,50 @@ width: 400px;
 #text-color{
     color:  rgb(229, 84, 115, 1);;
 }
+
+
+/* Shop by Occasion */
+.occasion-container{
+    margin-bottom: 100px;
+    background-color: #ecdfdf;
+    padding: 30px 0;
+}
+.occasion-text {
+    margin: 0 30%;
+    text-align: center;
+}
+
+.occasion-text h2 {
+    margin-bottom: 10px;
+}
+
+.occasion-box {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 30px;
+    gap: 10px;
+}
+
+.occasion-flower {
+    width: 300px;
+    height: 450px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.occasion-flower img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+}
+
+.occasion-flower a {
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+}
+
 
 /* Hot sales Offers */
 .hot-deals-container {
