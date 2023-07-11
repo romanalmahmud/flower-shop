@@ -1,5 +1,4 @@
 
-
 *{
     margin: 0px;
     padding: 0px;
@@ -239,6 +238,7 @@ width: 400px;
     background-image: url('../Flower Asset/Rectangle 9.png');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: bottom right;
     display: flex;
     flex-direction: column;
     height: 300px;
