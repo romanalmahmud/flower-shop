@@ -235,14 +235,14 @@ width: 400px;
 }
 /* Latest Deals */
 .deals {
-    background-image: url('/Flower Asset/Rectangle 9.png');
+    background-image: url('./Flower Asset/Rectangle 9.png');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: bottom right;
     display: flex;
     flex-direction: column;
     height: 300px;
     margin-bottom: 100px;
+    border: 1 solid white;
     border-radius: 5px;
     text-align: center;
     justify-content: center;
