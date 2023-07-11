@@ -242,7 +242,6 @@ width: 400px;
     flex-direction: column;
     height: 300px;
     margin-bottom: 100px;
-    border: 1 solid white;
     border-radius: 5px;
     text-align: center;
     justify-content: center;
@@ -271,4 +270,7 @@ footer {
 
 .web-footer{
     margin: 0 30%;
+}
+.web-footer>h1{
+    padding: 0px 25px 0px;
 }
